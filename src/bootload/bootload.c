@@ -1,6 +1,0 @@
-
-
-
-void boot_loader() {
-
-}
