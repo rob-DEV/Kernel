@@ -8,4 +8,4 @@ ASM_FLAGS = -f bin
 
 
 compile:
-	$(ASM) $(ASM_FLAGS) bootsect.asm -o ../../build/boot.bin;
+	$(ASM) $(ASM_FLAGS) boot_one.asm -o ../../build/boot.bin;
