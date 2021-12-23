@@ -16,7 +16,6 @@ compile:
 	make -C ./src/boot/
 
 link:
-	$(LD) -o build/boot.bin --oformat binary -e _start -Ttext 0x7c00 build/int/bootsect.o
 
 build:
 	cp build/boot.bin build/kernel_floppy.img
